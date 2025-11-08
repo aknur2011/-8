@@ -1,0 +1,43 @@
+body {
+    background: linear-gradient(135deg, #89f7fe, #66a6ff);
+    font-family: 'Segoe UI', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin: 0;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 30px 50px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.date-day, .month-year {
+    margin: 10px 0;
+}
+
+#date {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#day {
+    font-size: 25px;
+    opacity: 0.9;
+}
+
+#month {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#year {
+    font-size: 22px;
+    opacity: 0.8;
+}
